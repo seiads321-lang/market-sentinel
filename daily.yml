@@ -1,0 +1,33 @@
+name: Daily signal update
+on:
+  schedule:
+    - cron: '0 0 * * *' # 매일 09:00 KST (GitHub scheduler can be delayed)
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Fetch official signals and rebuild snapshot
+        env:
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          ALPHAVANTAGE_API_KEY: ${{ secrets.ALPHAVANTAGE_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python update.py
+      - name: Commit latest observation data only
+        run: |
+          git config user.name "market-warning-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/monthly.json data/signals.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Daily market signal snapshot"
+            git push
+          fi
