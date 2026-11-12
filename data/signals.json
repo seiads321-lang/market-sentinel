@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-11-12T09:54:05+00:00",
+  "score": null,
+  "coverage": 0,
+  "required_coverage": 5,
+  "cards": [
+    {
+      "id": "curve",
+      "name": "장단기 국채금리",
+      "frequency": "일간",
+      "provider": "FRED T10Y2Y",
+      "source_url": "https://fred.stlouisfed.org/series/T10Y2Y",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    },
+    {
+      "id": "breadth",
+      "name": "마켓 브레스",
+      "frequency": "거래일",
+      "provider": "DeanFi · S&P 500 구성종목 (비공식)",
+      "source_url": "https://github.com/DeanFinancials/deanfi-data",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    },
+    {
+      "id": "credit",
+      "name": "하이일드 신용 스프레드",
+      "frequency": "일간",
+      "provider": "FRED BAMLH0A0HYM2",
+      "source_url": "https://fred.stlouisfed.org/series/BAMLH0A0HYM2",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    },
+    {
+      "id": "fed",
+      "name": "연준 금리 인하 사이클",
+      "frequency": "정책 발표 시",
+      "provider": "FRED DFEDTARU",
+      "source_url": "https://fred.stlouisfed.org/series/DFEDTARU",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    },
+    {
+      "id": "cape",
+      "name": "CAPE·EPS 전망",
+      "frequency": "월간 / 자료 발표 시",
+      "provider": "Robert Shiller + EPS 컨센서스",
+      "source_url": "https://www.econ.yale.edu/~shiller/data.htm",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    },
+    {
+      "id": "lei",
+      "name": "미국 경기선행지수 LEI",
+      "frequency": "월간",
+      "provider": "The Conference Board",
+      "source_url": "https://www.conference-board.org/topics/us-leading-indicators/",
+      "status": "unknown",
+      "value": "99.6",
+      "observation_date": "2026-09",
+      "released_at": "2026-10-22",
+      "note": "월간 연속 하락 판정에 필요한 7개 월 자료 중 1개 확보 · 수치는 정상 반영 중",
+      "history": [
+        {
+          "date": "2026-09",
+          "value": 99.6
+        }
+      ]
+    },
+    {
+      "id": "sector",
+      "name": "방어주 중심 섹터 로테이션",
+      "frequency": "거래일",
+      "provider": "Alpha Vantage · 섹터 ETF 종가",
+      "source_url": "https://www.alphavantage.co/documentation/",
+      "status": "unknown",
+      "value": null,
+      "observation_date": null,
+      "released_at": null,
+      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "history": []
+    }
+  ],
+  "changes": [],
+  "warnings": [],
+  "method": "7개 중 5개 미만 판정 시 종합 점수 비공개."
+}
