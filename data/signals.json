@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-11-12T09:54:05+00:00",
+  "generated_at": "2026-11-12T15:58:04+00:00",
   "score": null,
-  "coverage": 0,
+  "coverage": 2,
   "required_coverage": 5,
   "cards": [
     {
@@ -14,7 +14,7 @@
       "value": null,
       "observation_date": null,
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "note": "이번 수집 실패 · 이전 확인값 유지 (실시간 상태 아님). 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
       "history": []
     },
     {
@@ -23,12 +23,293 @@
       "frequency": "거래일",
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
-      "status": "unknown",
-      "value": null,
-      "observation_date": null,
+      "status": "normal",
+      "value": "71.4%",
+      "observation_date": "2026-11-12",
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
-      "history": []
+      "note": "50일선 위 종목 71.4% · A/D Line 20일선 상회",
+      "history": [
+        {
+          "date": "2026-08-06",
+          "value": 12015.0
+        },
+        {
+          "date": "2026-08-07",
+          "value": 12150.0
+        },
+        {
+          "date": "2026-08-10",
+          "value": 12107.0
+        },
+        {
+          "date": "2026-08-11",
+          "value": 12159.0
+        },
+        {
+          "date": "2026-08-12",
+          "value": 12181.0
+        },
+        {
+          "date": "2026-08-13",
+          "value": 12317.0
+        },
+        {
+          "date": "2026-08-14",
+          "value": 12332.0
+        },
+        {
+          "date": "2026-08-17",
+          "value": 12097.0
+        },
+        {
+          "date": "2026-08-18",
+          "value": 12051.0
+        },
+        {
+          "date": "2026-08-19",
+          "value": 12125.0
+        },
+        {
+          "date": "2026-08-20",
+          "value": 11942.0
+        },
+        {
+          "date": "2026-08-21",
+          "value": 12107.0
+        },
+        {
+          "date": "2026-08-24",
+          "value": 12213.0
+        },
+        {
+          "date": "2026-08-25",
+          "value": 12126.0
+        },
+        {
+          "date": "2026-08-26",
+          "value": 12191.0
+        },
+        {
+          "date": "2026-08-27",
+          "value": 11994.0
+        },
+        {
+          "date": "2026-08-28",
+          "value": 11932.0
+        },
+        {
+          "date": "2026-08-31",
+          "value": 11708.0
+        },
+        {
+          "date": "2026-09-01",
+          "value": 11535.0
+        },
+        {
+          "date": "2026-09-02",
+          "value": 11628.0
+        },
+        {
+          "date": "2026-09-03",
+          "value": 11809.0
+        },
+        {
+          "date": "2026-09-04",
+          "value": 11656.0
+        },
+        {
+          "date": "2026-09-08",
+          "value": 11445.0
+        },
+        {
+          "date": "2026-09-09",
+          "value": 11139.0
+        },
+        {
+          "date": "2026-09-10",
+          "value": 10976.0
+        },
+        {
+          "date": "2026-09-11",
+          "value": 11126.0
+        },
+        {
+          "date": "2026-09-14",
+          "value": 11188.0
+        },
+        {
+          "date": "2026-09-15",
+          "value": 11010.0
+        },
+        {
+          "date": "2026-09-16",
+          "value": 10833.0
+        },
+        {
+          "date": "2026-09-17",
+          "value": 10923.0
+        },
+        {
+          "date": "2026-09-18",
+          "value": 10733.0
+        },
+        {
+          "date": "2026-09-21",
+          "value": 10816.0
+        },
+        {
+          "date": "2026-09-22",
+          "value": 10812.0
+        },
+        {
+          "date": "2026-09-23",
+          "value": 10650.0
+        },
+        {
+          "date": "2026-09-24",
+          "value": 10500.0
+        },
+        {
+          "date": "2026-09-25",
+          "value": 10640.0
+        },
+        {
+          "date": "2026-09-28",
+          "value": 10470.0
+        },
+        {
+          "date": "2026-09-29",
+          "value": 10367.0
+        },
+        {
+          "date": "2026-09-30",
+          "value": 10105.0
+        },
+        {
+          "date": "2026-10-01",
+          "value": 10195.0
+        },
+        {
+          "date": "2026-10-02",
+          "value": 10281.0
+        },
+        {
+          "date": "2026-10-05",
+          "value": 10415.0
+        },
+        {
+          "date": "2026-10-06",
+          "value": 10593.0
+        },
+        {
+          "date": "2026-10-07",
+          "value": 10368.0
+        },
+        {
+          "date": "2026-10-08",
+          "value": 10544.0
+        },
+        {
+          "date": "2026-10-09",
+          "value": 10673.0
+        },
+        {
+          "date": "2026-10-12",
+          "value": 10815.0
+        },
+        {
+          "date": "2026-10-13",
+          "value": 10847.0
+        },
+        {
+          "date": "2026-10-14",
+          "value": 10824.0
+        },
+        {
+          "date": "2026-10-15",
+          "value": 11082.0
+        },
+        {
+          "date": "2026-10-16",
+          "value": 11076.0
+        },
+        {
+          "date": "2026-10-19",
+          "value": 10928.0
+        },
+        {
+          "date": "2026-10-20",
+          "value": 11233.0
+        },
+        {
+          "date": "2026-10-21",
+          "value": 11293.0
+        },
+        {
+          "date": "2026-10-22",
+          "value": 11465.0
+        },
+        {
+          "date": "2026-10-23",
+          "value": 11233.0
+        },
+        {
+          "date": "2026-10-26",
+          "value": 11311.0
+        },
+        {
+          "date": "2026-10-27",
+          "value": 11299.0
+        },
+        {
+          "date": "2026-10-28",
+          "value": 11295.0
+        },
+        {
+          "date": "2026-10-29",
+          "value": 11604.0
+        },
+        {
+          "date": "2026-10-30",
+          "value": 11554.0
+        },
+        {
+          "date": "2026-11-02",
+          "value": 11745.0
+        },
+        {
+          "date": "2026-11-03",
+          "value": 11628.0
+        },
+        {
+          "date": "2026-11-04",
+          "value": 11877.0
+        },
+        {
+          "date": "2026-11-05",
+          "value": 11520.0
+        },
+        {
+          "date": "2026-11-06",
+          "value": 11385.0
+        },
+        {
+          "date": "2026-11-09",
+          "value": 11729.0
+        },
+        {
+          "date": "2026-11-10",
+          "value": 11732.0
+        },
+        {
+          "date": "2026-11-11",
+          "value": 11896.0
+        },
+        {
+          "date": "2026-11-12",
+          "value": 11845.0
+        }
+      ]
     },
     {
       "id": "credit",
@@ -40,7 +321,7 @@
       "value": null,
       "observation_date": null,
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "note": "이번 수집 실패 · 이전 확인값 유지 (실시간 상태 아님). 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=BAMLH0A0HYM2&api_key=https%3A",
       "history": []
     },
     {
@@ -53,7 +334,7 @@
       "value": null,
       "observation_date": null,
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "note": "이번 수집 실패 · 이전 확인값 유지 (실시간 상태 아님). 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DFEDTARU&api_key=https%3A%2F%",
       "history": []
     },
     {
@@ -66,7 +347,7 @@
       "value": null,
       "observation_date": null,
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
+      "note": "CAPE 4개월·EPS 3개월의 공식/검증된 발표 이력이 모두 있어야 복합 신호를 판정합니다.",
       "history": []
     },
     {
@@ -93,15 +374,28 @@
       "frequency": "거래일",
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
-      "status": "unknown",
-      "value": null,
-      "observation_date": null,
+      "status": "watch",
+      "value": "+2.9%p",
+      "observation_date": "2026-11-11",
       "released_at": null,
-      "note": "자동 데이터 수집이 아직 실행되지 않았습니다. 최초 배포 후 원천 확인 시 표시됩니다.",
-      "history": []
+      "note": "방어주 21거래일 평균 +8.2% / 경기민감주 +5.3% · 격차 +2.9%p",
+      "history": [
+        {
+          "date": "2026-11-11",
+          "value": 2.8853753129607282
+        }
+      ]
     }
   ],
-  "changes": [],
-  "warnings": [],
-  "method": "7개 중 5개 미만 판정 시 종합 점수 비공개."
+  "changes": [
+    "마켓 브레스: unknown → normal",
+    "방어주 중심 섹터 로테이션: unknown → watch"
+  ],
+  "warnings": [
+    "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
+    "curve: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
+    "credit: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=BAMLH0A0HYM2&api_key=https%3A",
+    "fed: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=DFEDTARU&api_key=https%3A%2F%"
+  ],
+  "method": "지표별 정상 0점·주의 50점·위험 100점 동등가중 평균. 7개 중 5개 미만 판정 시 점수 비공개. 검증되지 않은 참고 신호입니다."
 }
