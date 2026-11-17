@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T01:16:01+00:00",
+  "generated_at": "2026-11-17T00:59:28+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -24,15 +24,11 @@
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
       "status": "normal",
-      "value": "70.6%",
-      "observation_date": "2026-11-13",
+      "value": "64.6%",
+      "observation_date": "2026-11-16",
       "released_at": null,
-      "note": "50일선 위 종목 70.6% · A/D Line 20일선 상회",
+      "note": "50일선 위 종목 64.6% · A/D Line 20일선 상회",
       "history": [
-        {
-          "date": "2026-08-07",
-          "value": 12150.0
-        },
         {
           "date": "2026-08-10",
           "value": 12107.0
@@ -287,27 +283,31 @@
         },
         {
           "date": "2026-11-06",
-          "value": 11385.0
+          "value": 11381.0
         },
         {
           "date": "2026-11-09",
-          "value": 11725.0
+          "value": 11726.0
         },
         {
           "date": "2026-11-10",
-          "value": 11728.0
+          "value": 11739.0
         },
         {
           "date": "2026-11-11",
-          "value": 11892.0
+          "value": 11894.0
         },
         {
           "date": "2026-11-12",
-          "value": 11641.0
+          "value": 11643.0
         },
         {
           "date": "2026-11-13",
-          "value": 11771.0
+          "value": 11777.0
+        },
+        {
+          "date": "2026-11-16",
+          "value": 11566.0
         }
       ]
     },
@@ -375,19 +375,22 @@
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
       "status": "watch",
-      "value": "+2.1%p",
-      "observation_date": "2026-11-13",
+      "value": "+2.6%p",
+      "observation_date": "2026-11-16",
       "released_at": null,
-      "note": "방어주 21거래일 평균 +6.3% / 경기민감주 +4.2% · 격차 +2.1%p",
+      "note": "방어주 21거래일 평균 +5.5% / 경기민감주 +2.9% · 격차 +2.6%p",
       "history": [
         {
-          "date": "2026-11-13",
-          "value": 2.122380733656767
+          "date": "2026-11-16",
+          "value": 2.6436214173515498
         }
       ]
     }
   ],
-  "changes": [],
+  "changes": [
+    "마켓 브레스: 관측값 2026-11-16 반영",
+    "방어주 중심 섹터 로테이션: 관측값 2026-11-16 반영"
+  ],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
     "curve: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
