@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T00:59:28+00:00",
+  "generated_at": "2026-11-18T01:05:20+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -24,15 +24,11 @@
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
       "status": "normal",
-      "value": "64.6%",
-      "observation_date": "2026-11-16",
+      "value": "57.5%",
+      "observation_date": "2026-11-17",
       "released_at": null,
-      "note": "50일선 위 종목 64.6% · A/D Line 20일선 상회",
+      "note": "50일선 위 종목 57.5% · A/D Line 20일선 하회",
       "history": [
-        {
-          "date": "2026-08-10",
-          "value": 12107.0
-        },
         {
           "date": "2026-08-11",
           "value": 12159.0
@@ -299,15 +295,19 @@
         },
         {
           "date": "2026-11-12",
-          "value": 11643.0
+          "value": 11641.0
         },
         {
           "date": "2026-11-13",
-          "value": 11777.0
+          "value": 11775.0
         },
         {
           "date": "2026-11-16",
-          "value": 11566.0
+          "value": 11571.0
+        },
+        {
+          "date": "2026-11-17",
+          "value": 11219.0
         }
       ]
     },
@@ -375,21 +375,21 @@
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
       "status": "watch",
-      "value": "+2.6%p",
-      "observation_date": "2026-11-16",
+      "value": "+3.5%p",
+      "observation_date": "2026-11-17",
       "released_at": null,
-      "note": "방어주 21거래일 평균 +5.5% / 경기민감주 +2.9% · 격차 +2.6%p",
+      "note": "방어주 21거래일 평균 +5.1% / 경기민감주 +1.6% · 격차 +3.5%p",
       "history": [
         {
-          "date": "2026-11-16",
-          "value": 2.6436214173515498
+          "date": "2026-11-17",
+          "value": 3.5048449182004893
         }
       ]
     }
   ],
   "changes": [
-    "마켓 브레스: 관측값 2026-11-16 반영",
-    "방어주 중심 섹터 로테이션: 관측값 2026-11-16 반영"
+    "마켓 브레스: 관측값 2026-11-17 반영",
+    "방어주 중심 섹터 로테이션: 관측값 2026-11-17 반영"
   ],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
