@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T01:01:38+00:00",
+  "generated_at": "2026-11-22T00:59:35+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -391,10 +391,7 @@
       ]
     }
   ],
-  "changes": [
-    "마켓 브레스: 관측값 2026-11-20 반영",
-    "방어주 중심 섹터 로테이션: 관측값 2026-11-20 반영"
-  ],
+  "changes": [],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
     "curve: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
