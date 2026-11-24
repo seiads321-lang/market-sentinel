@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T01:01:38+00:00",
+  "generated_at": "2026-11-24T01:02:00+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -24,290 +24,290 @@
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
       "status": "watch",
-      "value": "48.3%",
-      "observation_date": "2026-11-20",
+      "value": "52.5%",
+      "observation_date": "2026-11-23",
       "released_at": null,
-      "note": "50일선 위 종목 48.3% · A/D Line 20일선 하회",
+      "note": "50일선 위 종목 52.5% · A/D Line 20일선 하회",
       "history": [
         {
-          "date": "2026-08-14",
-          "value": 8109.0
-        },
-        {
           "date": "2026-08-17",
-          "value": 7879.0
+          "value": 7514.0
         },
         {
           "date": "2026-08-18",
-          "value": 7830.0
+          "value": 7465.0
         },
         {
           "date": "2026-08-19",
-          "value": 7895.0
+          "value": 7530.0
         },
         {
           "date": "2026-08-20",
-          "value": 7711.0
+          "value": 7346.0
         },
         {
           "date": "2026-08-21",
-          "value": 7877.0
+          "value": 7512.0
         },
         {
           "date": "2026-08-24",
-          "value": 7980.0
+          "value": 7615.0
         },
         {
           "date": "2026-08-25",
-          "value": 7898.0
+          "value": 7533.0
         },
         {
           "date": "2026-08-26",
-          "value": 7970.0
+          "value": 7605.0
         },
         {
           "date": "2026-08-27",
-          "value": 7776.0
+          "value": 7411.0
         },
         {
           "date": "2026-08-28",
-          "value": 7727.0
+          "value": 7362.0
         },
         {
           "date": "2026-08-31",
-          "value": 7502.0
+          "value": 7137.0
         },
         {
           "date": "2026-09-01",
-          "value": 7322.0
+          "value": 6957.0
         },
         {
           "date": "2026-09-02",
-          "value": 7415.0
+          "value": 7050.0
         },
         {
           "date": "2026-09-03",
-          "value": 7601.0
+          "value": 7236.0
         },
         {
           "date": "2026-09-04",
-          "value": 7460.0
+          "value": 7095.0
         },
         {
           "date": "2026-09-08",
-          "value": 7255.0
+          "value": 6890.0
         },
         {
           "date": "2026-09-09",
-          "value": 6955.0
+          "value": 6590.0
         },
         {
           "date": "2026-09-10",
-          "value": 6789.0
+          "value": 6424.0
         },
         {
           "date": "2026-09-11",
-          "value": 6969.0
+          "value": 6604.0
         },
         {
           "date": "2026-09-14",
-          "value": 7032.0
+          "value": 6667.0
         },
         {
           "date": "2026-09-15",
-          "value": 6855.0
+          "value": 6490.0
         },
         {
           "date": "2026-09-16",
-          "value": 6677.0
+          "value": 6312.0
         },
         {
           "date": "2026-09-17",
-          "value": 6768.0
+          "value": 6403.0
         },
         {
           "date": "2026-09-18",
-          "value": 6579.0
+          "value": 6214.0
         },
         {
           "date": "2026-09-21",
-          "value": 6663.0
+          "value": 6298.0
         },
         {
           "date": "2026-09-22",
-          "value": 6658.0
+          "value": 6293.0
         },
         {
           "date": "2026-09-23",
-          "value": 6499.0
+          "value": 6134.0
         },
         {
           "date": "2026-09-24",
-          "value": 6352.0
+          "value": 5987.0
         },
         {
           "date": "2026-09-25",
-          "value": 6506.0
+          "value": 6141.0
         },
         {
           "date": "2026-09-28",
-          "value": 6336.0
+          "value": 5971.0
         },
         {
           "date": "2026-09-29",
-          "value": 6233.0
+          "value": 5868.0
         },
         {
           "date": "2026-09-30",
-          "value": 5973.0
+          "value": 5608.0
         },
         {
           "date": "2026-10-01",
-          "value": 6071.0
+          "value": 5706.0
         },
         {
           "date": "2026-10-02",
-          "value": 6163.0
+          "value": 5798.0
         },
         {
           "date": "2026-10-05",
-          "value": 6297.0
+          "value": 5932.0
         },
         {
           "date": "2026-10-06",
-          "value": 6473.0
+          "value": 6108.0
         },
         {
           "date": "2026-10-07",
-          "value": 6250.0
+          "value": 5885.0
         },
         {
           "date": "2026-10-08",
-          "value": 6426.0
+          "value": 6061.0
         },
         {
           "date": "2026-10-09",
-          "value": 6563.0
+          "value": 6198.0
         },
         {
           "date": "2026-10-12",
-          "value": 6703.0
+          "value": 6338.0
         },
         {
           "date": "2026-10-13",
-          "value": 6735.0
+          "value": 6370.0
         },
         {
           "date": "2026-10-14",
-          "value": 6712.0
+          "value": 6347.0
         },
         {
           "date": "2026-10-15",
-          "value": 6969.0
+          "value": 6604.0
         },
         {
           "date": "2026-10-16",
-          "value": 6962.0
+          "value": 6597.0
         },
         {
           "date": "2026-10-19",
-          "value": 6816.0
+          "value": 6451.0
         },
         {
           "date": "2026-10-20",
-          "value": 7121.0
+          "value": 6756.0
         },
         {
           "date": "2026-10-21",
-          "value": 7183.0
+          "value": 6818.0
         },
         {
           "date": "2026-10-22",
-          "value": 7353.0
+          "value": 6988.0
         },
         {
           "date": "2026-10-23",
-          "value": 7125.0
+          "value": 6760.0
         },
         {
           "date": "2026-10-26",
-          "value": 7205.0
+          "value": 6840.0
         },
         {
           "date": "2026-10-27",
-          "value": 7195.0
+          "value": 6830.0
         },
         {
           "date": "2026-10-28",
-          "value": 7190.0
+          "value": 6825.0
         },
         {
           "date": "2026-10-29",
-          "value": 7497.0
+          "value": 7132.0
         },
         {
           "date": "2026-10-30",
-          "value": 7450.0
+          "value": 7085.0
         },
         {
           "date": "2026-11-02",
-          "value": 7641.0
+          "value": 7276.0
         },
         {
           "date": "2026-11-03",
-          "value": 7520.0
+          "value": 7155.0
         },
         {
           "date": "2026-11-04",
-          "value": 7769.0
+          "value": 7404.0
         },
         {
           "date": "2026-11-05",
-          "value": 7412.0
+          "value": 7047.0
         },
         {
           "date": "2026-11-06",
-          "value": 7280.0
+          "value": 6915.0
         },
         {
           "date": "2026-11-09",
-          "value": 7625.0
+          "value": 7260.0
         },
         {
           "date": "2026-11-10",
-          "value": 7628.0
+          "value": 7263.0
         },
         {
           "date": "2026-11-11",
-          "value": 7792.0
+          "value": 7427.0
         },
         {
           "date": "2026-11-12",
-          "value": 7541.0
+          "value": 7176.0
         },
         {
           "date": "2026-11-13",
-          "value": 7675.0
+          "value": 7310.0
         },
         {
           "date": "2026-11-16",
-          "value": 7471.0
+          "value": 7106.0
         },
         {
           "date": "2026-11-17",
-          "value": 7119.0
+          "value": 6754.0
         },
         {
           "date": "2026-11-18",
-          "value": 7091.0
+          "value": 6726.0
         },
         {
           "date": "2026-11-19",
-          "value": 6665.0
+          "value": 6300.0
         },
         {
           "date": "2026-11-20",
-          "value": 6639.0
+          "value": 6049.0
+        },
+        {
+          "date": "2026-11-23",
+          "value": 6384.0
         }
       ]
     },
@@ -378,20 +378,23 @@
       "frequency": "거래일",
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
-      "status": "watch",
-      "value": "+3.3%p",
-      "observation_date": "2026-11-20",
+      "status": "normal",
+      "value": "+0.9%p",
+      "observation_date": "2026-11-23",
       "released_at": null,
-      "note": "방어주 21거래일 평균 -0.7% / 경기민감주 -4.0% · 격차 +3.3%p",
+      "note": "방어주 21거래일 평균 +1.4% / 경기민감주 +0.5% · 격차 +0.9%p",
       "history": [
         {
-          "date": "2026-11-20",
-          "value": 3.321843145201816
+          "date": "2026-11-23",
+          "value": 0.877560047008911
         }
       ]
     }
   ],
-  "changes": [],
+  "changes": [
+    "마켓 브레스: 관측값 2026-11-23 반영",
+    "방어주 중심 섹터 로테이션: watch → normal"
+  ],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
     "curve: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
