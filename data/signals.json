@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T01:07:17+00:00",
+  "generated_at": "2026-11-26T01:07:09+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -24,15 +24,11 @@
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
       "status": "normal",
-      "value": "55.5%",
-      "observation_date": "2026-11-24",
+      "value": "59.4%",
+      "observation_date": "2026-11-25",
       "released_at": null,
-      "note": "50일선 위 종목 55.5% · A/D Line 20일선 하회",
+      "note": "50일선 위 종목 59.4% · A/D Line 20일선 하회",
       "history": [
-        {
-          "date": "2026-08-18",
-          "value": 6967.0
-        },
         {
           "date": "2026-08-19",
           "value": 7032.0
@@ -307,7 +303,11 @@
         },
         {
           "date": "2026-11-24",
-          "value": 6077.0
+          "value": 6081.0
+        },
+        {
+          "date": "2026-11-25",
+          "value": 6324.0
         }
       ]
     },
@@ -379,21 +379,21 @@
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
       "status": "watch",
-      "value": "+3.2%p",
-      "observation_date": "2026-11-24",
+      "value": "+3.4%p",
+      "observation_date": "2026-11-25",
       "released_at": null,
-      "note": "방어주 21거래일 평균 +3.2% / 경기민감주 -0.0% · 격차 +3.2%p",
+      "note": "방어주 21거래일 평균 +3.4% / 경기민감주 -0.0% · 격차 +3.4%p",
       "history": [
         {
-          "date": "2026-11-24",
-          "value": 3.168034243364448
+          "date": "2026-11-25",
+          "value": 3.419916594128551
         }
       ]
     }
   ],
   "changes": [
-    "마켓 브레스: watch → normal",
-    "방어주 중심 섹터 로테이션: normal → watch"
+    "마켓 브레스: 관측값 2026-11-25 반영",
+    "방어주 중심 섹터 로테이션: 관측값 2026-11-25 반영"
   ],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
