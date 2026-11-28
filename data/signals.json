@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T01:13:11+00:00",
+  "generated_at": "2026-11-28T01:07:17+00:00",
   "score": null,
   "coverage": 2,
   "required_coverage": 5,
@@ -24,15 +24,11 @@
       "provider": "DeanFi · S&P 500 구성종목 (비공식)",
       "source_url": "https://github.com/DeanFinancials/deanfi-data",
       "status": "normal",
-      "value": "59.6%",
-      "observation_date": "2026-11-25",
+      "value": "64.4%",
+      "observation_date": "2026-11-27",
       "released_at": null,
-      "note": "50일선 위 종목 59.6% · A/D Line 20일선 하회",
+      "note": "50일선 위 종목 64.4% · A/D Line 20일선 상회",
       "history": [
-        {
-          "date": "2026-08-19",
-          "value": 6968.0
-        },
         {
           "date": "2026-08-20",
           "value": 6784.0
@@ -308,6 +304,10 @@
         {
           "date": "2026-11-25",
           "value": 6262.0
+        },
+        {
+          "date": "2026-11-27",
+          "value": 6575.0
         }
       ]
     },
@@ -379,19 +379,22 @@
       "provider": "Alpha Vantage · 섹터 ETF 종가",
       "source_url": "https://www.alphavantage.co/documentation/",
       "status": "watch",
-      "value": "+3.4%p",
-      "observation_date": "2026-11-25",
+      "value": "+2.7%p",
+      "observation_date": "2026-11-27",
       "released_at": null,
-      "note": "방어주 21거래일 평균 +3.4% / 경기민감주 -0.0% · 격차 +3.4%p",
+      "note": "방어주 21거래일 평균 +4.0% / 경기민감주 +1.4% · 격차 +2.7%p",
       "history": [
         {
-          "date": "2026-11-25",
-          "value": 3.419916594128551
+          "date": "2026-11-27",
+          "value": 2.6722746249547806
         }
       ]
     }
   ],
-  "changes": [],
+  "changes": [
+    "마켓 브레스: 관측값 2026-11-27 반영",
+    "방어주 중심 섹터 로테이션: 관측값 2026-11-27 반영"
+  ],
   "warnings": [
     "CAPE: HTTPSConnectionPool(host='www.econ.yale.edu', port=443): Max retries exceeded with url: /~shiller/data/ie_data.xls (Caused by NewC",
     "curve: 400 Client Error: Bad Request for url: https://api.stlouisfed.org/fred/series/observations?series_id=T10Y2Y&api_key=https%3A%2F%2F",
